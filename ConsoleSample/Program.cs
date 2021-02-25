@@ -25,7 +25,7 @@ namespace ConsoleSample
             [Option("f", "FRAMEWORK")]string framework = null,
             bool force = false,
             bool interactive = false,
-            [Command("no-dependencies")]bool no_dependencies = false)
+            [Option("no-dependencies")]bool no_dependencies = false)
         {
             Console.WriteLine("success");
             Console.WriteLine("project: {0}", project);
